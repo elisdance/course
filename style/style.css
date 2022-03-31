@@ -1,0 +1,90 @@
+
+.name {
+    background-color: #4A4F56;
+}
+.name h1{
+font-family: 'Roboto';
+font-style: normal;
+font-size: 24px;
+line-height: 28px;
+color: #FF8984;
+}
+.name h3{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FF8984;
+}
+.container {
+    background: #3B3F45;
+}
+.pair:hover{
+    
+    background-color:#625E77 ;
+    border-top: 3px solid #ffff;
+    border-bottom: 3px solid white;
+  }
+.odd:hover{
+    background-color:#625E77 ;
+    
+  border-top: 3px solid #ffff;
+  border-bottom: 3px solid white;
+}
+[type="checkbox"]:checked+span {
+    text-decoration: line-through;
+    color: #9B96AC;
+ }
+ small:before{
+	content:'(';
+	}
+small:after{
+	content:')';
+	}
+    
+.pair{
+    height: 45px;
+    background: #7A7593;
+}
+.odd {
+    height: 45px; 
+  background: #88839E;
+}
+label {
+    font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.description{
+    font-size: 11px;
+line-height: 13px;
+
+
+color: #FFFFFF;
+
+}
+
+.footer {
+    height: 45px;
+    background: #4A4F56;
+}
+.footer p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #FF8984;
+
+}
+.odd:active {
+    vertical-align: middle;
+    background: #FF8984;
+   }
+   .pair:active {
+    vertical-align: middle;
+    background: #FF8984;
+   }
+

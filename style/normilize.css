@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+.name {
+    overflow: hidden;
+    text-align: center;
+    min-height: 100%;
+}
+.container{
+    overflow: hidden;
+}
+.main_container {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 20px;
+  
+
+}
+.pair {
+    text-align: left;
+    padding-top: 11px;
+  
+}
+.odd {
+  text-align: left;
+ padding-top: 11px;
+}
+.footer {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.footer p{
+padding-top: 12px;
+}
