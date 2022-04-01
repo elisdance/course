@@ -1,0 +1,89 @@
+body{
+  width: 100%;
+	min-height: 100vh;
+  
+}
+.navigation{
+  flex: none;
+  margin-top: 44px;
+  display: flex;
+  margin-right: 5%;
+}
+
+.link {
+  padding-right: 20px;
+    
+}
+nav {
+  padding-top: 10px;
+  display: flex;
+      
+}
+span {
+  display: flex;
+  margin-left: 5%;
+  padding-right: 320px;
+}
+span h2{
+  padding-left: 11px;
+}
+button {
+  display: flex ;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  
+}
+
+.navigation_links {
+  display: flex;
+    
+}
+.navigation__link:last-of-type {
+	margin-right: 0;
+}
+
+header h1{
+margin-left: 5%;
+margin-top: 10%;
+}
+header img{
+align:right;
+position: absolute;
+width: 604.35px;
+height: 494.83px;
+left: 46%;
+top: 20%;
+
+}
+header>p{
+height: 95px;
+margin-left:5%;
+}
+
+header>button{
+height: 53px;
+width: 175px;
+border-radius: 4px;
+margin-left: 5%;
+position: absolute;
+}
+.video{
+  display: flex;
+  margin-left: 20%;
+  margin-top: 32px;
+  
+}
+.watch {
+  padding-left: 8px;  
+}
+.triangle2 {
+  margin-top: 3px;
+  padding-top: 1px;
+}
+
