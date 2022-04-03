@@ -1,18 +1,16 @@
 body{
   width: 100%;
-	min-height: 100vh;
-  
+	min-height: 100vh; 
 }
 .navigation{
-  flex: none;
-  margin-top: 44px;
   display: flex;
-  margin-right: 5%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 35px;
+  flex-wrap: wrap;
 }
-
 .link {
-  padding-right: 20px;
-    
+  padding-right: 20px;   
 }
 nav {
   padding-top: 10px;
@@ -37,53 +35,52 @@ button {
 }
 .buttons {
   display: flex;
-  
 }
-
 .navigation_links {
-  display: flex;
-    
+  display: flex;   
 }
 .navigation__link:last-of-type {
 	margin-right: 0;
 }
-
-header h1{
-margin-left: 5%;
-margin-top: 10%;
+.width> h1{
+  margin-left: 10%;
+  margin-top: 10%;
 }
-header img{
-align:right;
-position: absolute;
-width: 604.35px;
-height: 494.83px;
-left: 46%;
-top: 20%;
-
+.people {
+  padding-right: 35px;
 }
-header>p{
-height: 95px;
-margin-left:5%;
+.width>p{
+  height: 95px;
+  margin-left:10%;
 }
-
-header>button{
-height: 53px;
-width: 175px;
-border-radius: 4px;
-margin-left: 5%;
-position: absolute;
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container2>button{
+  height: 53px;
+  width: 175px;
+  border-radius: 4px;
+  margin-left: 10%;
 }
 .video{
   display: flex;
-  margin-left: 20%;
-  margin-top: 32px;
-  
+  margin-top: 15px;
+  margin-left: 3%;
+  flex-direction:row; 
 }
 .watch {
-  padding-left: 8px;  
+  padding-left: 10px;   
 }
-.triangle2 {
+.triangle2{
   margin-top: 3px;
-  padding-top: 1px;
 }
-
+.width {
+  min-width: 500px;
+  padding-left: 3%;
+}

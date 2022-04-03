@@ -12,8 +12,7 @@ span h2{
 
 .link {
 	text-decoration: none;
-	color: #383430;
-    
+	color: #383430;  
 }
 nav {
   flex: none;
@@ -32,32 +31,30 @@ button {
   font-weight: 600;
 }
 .b1 {
-    border: 1px solid #BCD0E5;
-    background-color: white;  
-    color: #173A56;  
+  border: 1px solid #BCD0E5;
+  background-color: white;  
+  color: #173A56;  
 }
 .b2 {
   color: white;
   border: none;
   background: orange;
-  
 }
 header h1{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 44px;
-color: #2F281E;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  color: #2F281E;
 }
-header>p{
-font-family: 'Poppins';
-font-style: normal;
-
-font-weight: 400;
-font-size: 18px;
-color: #544837;
+.width>p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #544837;
 }
-header>button{
+.container2>button{
   color: white;
   border: none;
   background: orange;
@@ -78,5 +75,4 @@ header>button{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600; 
-
 }
