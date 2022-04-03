@@ -19,7 +19,7 @@ nav {
 }
 span {
   display: flex;
-  margin-left: 5%;
+  margin-left: 10.5%;
   padding-right: 320px;
 }
 span h2{
@@ -51,12 +51,13 @@ button {
 }
 .width>p{
   height: 95px;
-  margin-left:10%;
+  margin-left:10.5%;
 }
 .container{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 .container2{
   display: flex;
@@ -82,5 +83,55 @@ button {
 }
 .width {
   min-width: 500px;
-  padding-left: 3%;
+  padding-left: 9%;
+}
+.feature h2{
+  margin-top: 10%;
+  text-align: center;
+}
+.tool{
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+.container3{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 54px;
+}
+.feature>button{
+  height: 53px;
+  width: 175px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 5%;
+}
+footer{
+  margin-top: 10%;
+}
+footer span{
+  margin-left: 10%;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35%;
+  margin-right: 10%;
+  list-style: none;
+}
+.third{
+  justify-content: left;
+}
+.field {
+padding: 15px 50px;
+margin-top: 15px!important;
+margin-left: 6.8%;
+}
+.third>button{
+  height: 53px;
+  width: 175px;
+  border-radius: 4px;
+  margin-top: 7%;
 }
