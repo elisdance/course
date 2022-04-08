@@ -1,27 +1,22 @@
-body{
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
-.navigation{
-  display: flex;
-  justify-content: space-between;
-}
+
+.sidebar a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: black;
+display: block;
+} 
+
 
 .navigation__link {
   color: #383430;
   list-style: none;
 }
-
-nav{
-  display: flex;
-  list-style: none;
-}
-
-.links{
-  margin-left: 15%;
-}
-
 .link {
   text-decoration: none;
   color: #383430;
@@ -29,11 +24,6 @@ nav{
   font-style: normal;
   font-weight: 400;
 }
-
-nav{
-  width: 250px;
-}
-
 .lan{
 text-decoration-line: none;
 display: flex;
@@ -44,10 +34,6 @@ font-style: normal;
 font-weight: 900;
 font-size: 20px;
 margin-right: 15px;
-}
-
-.container{
-  position: absolute;
 }
 p{
   font-family: 'PT Sans';

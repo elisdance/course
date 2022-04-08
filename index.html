@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-<header>
+  <img src="Frame 1.jpg" class="background resized">
+
   <header>
     <div class="navigation ">
-      <div class="navigation top">
+      <div class="navigation_top">
         <div>
           <a class="lan" href="">ENG</a>
         </div>
@@ -22,31 +24,39 @@
             <li class="navigation_link"><a class="link" href=""> Who's using</a></li>
           </nav>
         </div>
-      </div>
-      <div>
+        <div class="img">
         <img src="company-logo-black.svg" alt="logo">
+        </div>
       </div>
     </div>
   </header>
-
 <div class="container">
- <h4><sup>1</sup> <b>Introduction</b><br></h4>
+  <aside class="sidebar">
+    <a href="#intro"><sup>1</sup> <b>Introduction</b></a>
+    <a href="#core"><sup>2</sup> <b>Core Components</b></a>
+    <a href="#react"><sup>3</sup> <b> React Fundamentals</b></a>
+    <a href="#handling"><sup>4</sup> <b>Handling Text Input</b></a>
+  </aside>
+  <div class="content">
+  <div id="intro">
+ <h4> <b>Introduction</b><br></h4>
  <p>
   Welcome to the very start of your React Native journey! If you're looking for environment setup instructions, they've <br>
   moved to <u>their own section.</u> Continue reading for an introduction to the documentation, Native Components, React, and  <br>
   more!<br>
   </p>
-  
-  
-  <h4><sup>2</sup> <b>Core Components</b><br></h4>
+</div>
+<div id="core">
+  <h4 ><b>Core Components</b><br></h4>
   <p>
   React Native is an open source framework for building Android and iOS applications using React and the app platform’s <br>
   native capabiles. With React Native, you use JavaScript to access your platform’s APIs as well as to describe the <br>
   appearance and behavior of your UI using React components: bundles of reusable, nestable code. You can learn more <br> 
   about React in the next section. But first, let’s cover how components work in React Native. <br>
 </p>
-  
-  <h4><sup>3</sup> <b> React Fundamentals</b> <br></h4>
+</div>
+<div id="react">
+  <h4 ><b> React Fundamentals</b> <br></h4>
   <p>
   React Native runs on <u>React</u> , a popular open source library for building user interfaces with JavaScript. To make the most <br> 
   of React Native, it helps to understand React itself. This section can get you started or can serve as a refresher course.<br>
@@ -67,8 +77,9 @@
   component’s personal data storage. State is useful for handling data that changes over time or that comes from user <br> 
   interaction. State gives your components memory!<br>
   </p>
-  
-  <h4><sup>4</sup> <b>Handling Text Input</b><br></h4>
+</div>
+<div id="handling">
+  <h4 ><b>Handling Text Input</b><br></h4>
   <p>
   TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that takes a function to<br>
   be called every time the text changed, and an onSubmitEditing prop that takes a function to be called when the text is<br>
@@ -80,5 +91,8 @@
   
   </p>
 </div>
+</div>
+</div>
+
 </body>
 </html>
