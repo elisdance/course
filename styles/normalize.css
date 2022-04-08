@@ -20,30 +20,25 @@ body{
 .navigation{
   justify-content:space-between;
   position: fixed;
-  z-index: 1000;
-  background-color: white;
   width: 90%;
   
 }
 .navigation_top{
   display: flex;
   list-style: none;
- 
 }
 nav{
-  
   display: flex;
 }
 
 .links{
   margin-left: 15%;
   padding-right: 40%;
-  
 }
 
 
 .lan{
-margin-right: 15px;
+  margin-right: 15px;
 }
 
 .container{
@@ -52,12 +47,7 @@ margin-right: 15px;
   
 }
 .sidebar {
-  width: 35%;
-  background-color:white;
-  color:black;
-  padding-left:0;
-  float: left;
-  text-decoration: none;
+  width: 35%; 
   position: -webkit-sticky;
   position: sticky;
   top: 40px;
