@@ -1,0 +1,63 @@
+body{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.background {
+  min-height: 90%;
+  min-width: 600px;
+  width: 90%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.resized{
+  width: 450px;
+  height: 500px;
+  left:60%;
+  top: 10%;
+}
+.navigation{
+  justify-content:space-between;
+  position: fixed;
+  width: 90%;
+  
+}
+.navigation_top{
+  display: flex;
+  list-style: none;
+}
+nav{
+  display: flex;
+}
+
+.links{
+  margin-left: 15%;
+  padding-right: 40%;
+}
+
+
+.lan{
+  margin-right: 15px;
+}
+
+.container{
+  position:relative;
+  padding-top: 8%;
+  
+}
+.sidebar {
+  width: 35%; 
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+  flex-basis: 33.33%;
+}
+.content{
+  flex-basis: 66.66%;
+  margin-left: 35%;
+}
+
+
+
+
