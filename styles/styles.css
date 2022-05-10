@@ -1,0 +1,50 @@
+.logo>p{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 35px;
+}
+hr{
+border: 1px solid #EFEEF3;
+}
+.content>p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #7690A8; 
+}
+.card{
+background: #FFFFFF;
+border: 1px solid #E5EAF4;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.card>a{
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #16133D;
+}
+footer{
+width: 1440px;
+height: 194px;
+left: 0px;
+top: 714px;
+background: #16133D;
+}
+footer>.logo>p{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+color: #F2F2F2;
+}
+.card:hover{
+border: 1px solid #3DB370;
+}
+
+
+
